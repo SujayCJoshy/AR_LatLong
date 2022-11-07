@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    </head>
+
+    <body style="margin: 0; overflow: hidden;">
+        <a-scene
+            renderer="logarithmicDepthBuffer: true;"
+            embedded
+            loading-screen="enabled: false;"
+            arjs="sourceType: webcam; debugUIEnabled: false;"
+        >
+            <a-assets>
+                <a-asset-item
+                    id="1_1"
+                    src="assets/1_1_road_asset-bikes.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_2"
+                    src="assets/1_2_road_asset-daytona.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_3"
+                    src="assets/1_3_road_asset-nypd.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_4"
+                    src="assets/1_4_road_asset-police.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_5"
+                    src="assets/1_5_road_asset-rustyCar.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_6"
+                    src="assets/1_6_road_asset-tank.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_7"
+                    src="assets/1_7_road_asset-tomaHawk.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="1_8"
+                    src="assets/1_8_road_asset-taxi.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="2_1"
+                    src="assets/2_1_park_asset-fish.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="2_2"
+                    src="assets/2_2_park_asset-phoenix.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="2_3"
+                    src="assets/2_3_park_asset-seaTurtle.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="2_4"
+                    src="assets/2_4_park_asset-ship.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="3_1"
+                    src="assets/3_1_field_asset-church.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="3_2"
+                    src="assets/3_2_field_asset-oldBuilding.gltf"
+                ></a-asset-item>
+                <a-asset-item
+                    id="3_3"
+                    src="assets/3_3_field_asset-Train.gltf"
+                ></a-asset-item>
+            </a-assets>
+
+            <!-- 1_1 -->
+            <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_1"
+                    scale="0.7469484987643444 0.7469484987643444 0.7469484987643444"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity>
+            <!-- 1_2 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_2"
+                    scale="0.37020651948743616 0.37020651948743616 0.37020651948743616"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 1_3 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_3"
+                    scale="0.010106073602042433 0.010106073602042433 0.010106073602042433"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 1_4 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_4"
+                    scale="0.0100536716895395 0.0100536716895395 0.0100536716895395"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 1_5 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_5"
+                    scale="0.0015069460795855897 0.0015069460795855897 0.0015069460795855897"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 1_6 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_6"
+                    scale="0.19176981997353923 0.19176981997353923 0.19176981997353923"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 1_7 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_7"
+                    scale="0.6977450334110127 0.6977450334110127 0.6977450334110127"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 1_8 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#1_8"
+                    scale="0.010325815594634849 0.010325815594634849 0.010325815594634849"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 2_1 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#2_1"
+                    scale="0.3065944046818657 0.3065944046818657 0.3065944046818657"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 2_2 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#2_2"
+                    scale="0.002078034258399037 0.002078034258399037 0.002078034258399037"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 2_3 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#2_3"
+                    scale="0.02328780922885237 0.02328780922885237 0.02328780922885237"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 2_4 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#2_4"
+                    scale="0.03258194090723232 0.03258194090723232 0.03258194090723232"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 3_1 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#3_1"
+                    scale="0.12037653024101919 0.12037653024101919 0.12037653024101919"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 3_2 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#3_2"
+                    scale="0.017152061947673426 0.017152061947673426 0.017152061947673426"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            <!-- 3_3 -->
+            <!-- <a-entity
+                    look-at="[gps-camera]"
+                    animation-mixer="loop: repeat"
+                    #3_3"
+                    scale="0.13102695501280562 0.13102695501280562 0.13102695501280562"
+                    gps-entity-place="latitude: 12.9273861; longitude: 77.6231097;"
+                ></a-entity> -->
+            
+
+
+            <a-camera gps-camera rotation-reader></a-camera>
+        </a-scene>
+
+    </body>
+</html>
+
+Loading...
